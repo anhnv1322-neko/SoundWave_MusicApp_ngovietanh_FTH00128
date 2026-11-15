@@ -73,10 +73,13 @@ Nên chạy bằng Live Server thay vì mở trực tiếp file HTML bằng `fil
 
 `index.html` chứa duy nhất một thẻ `<audio>` nằm ngoài iframe. Các trang nội dung được nạp trong iframe có tên `contentFrame`; liên kết nội bộ trỏ vào khung này. Vì vậy, khi chuyển trang, iframe thay đổi nội dung nhưng trang `index.html` và thẻ audio không bị tải lại, nên nhạc không bị ngắt.
 
-Trình phát hỗ trợ phát, tạm dừng, tua, chỉnh âm lượng và phát lại bằng điều khiển gốc của trình duyệt. Thuộc tính `controlslist="nodownload"` yêu cầu trình duyệt ẩn nút tải xuống nếu được hỗ trợ; nó không bảo vệ tuyệt đối tệp MP3.
+Trình phát hỗ trợ phát, tạm dừng, tua, chỉnh âm lượng và phát lại bằng điều khiển gốc của trình duyệt.
 
 ## Tệp nhạc
 
 - Thư mục: `sounddemo/`
 - Tệp đang phát: `sounddemo/badders.mp3`
 - Muốn thay nhạc, chép tệp khác vào `sounddemo/` và sửa đường dẫn trong thẻ `<source>` ở `index.html`.
+
+## Video
+https://drive.google.com/file/d/1WfDGJUF7wAAoqi_AjxeautF7QwOYx--i/view?usp=sharing
